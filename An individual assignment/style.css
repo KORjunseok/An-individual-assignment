@@ -1,0 +1,41 @@
+.myback {
+    background-color: rgb(194, 35, 35);
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    padding: 20px 0;
+    font-weight: bold
+} /* 맨 위 css */
+
+.search {
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+} /* 영화 검색 */
+
+.search-btn {
+    font-size: 20px;
+    margin-left: 10px;
+} /* 검색 버튼 및 placeholder 영향 */
+
+.search-input{
+    font-size : 15px;
+    padding: 5px 10px;
+    
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}  /* placeholder 및 검색 버튼 영향 */     
+
+.mycards {
+    margin: 20px auto 0px auto;
+    width: 95%;
+    max-width: 1200px;
+
+    cursor: pointer; /* 마우스 커서 갖다대면 손가락 모영 변경 */
+}
