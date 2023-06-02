@@ -1,3 +1,4 @@
+/* 맨 위 style */
 .myback {
     background-color: rgb(194, 35, 35);
     display: flex;
@@ -5,8 +6,9 @@
     justify-content: center;
     padding: 20px 0;
     font-weight: bold
-} /* 맨 위 css */
+} 
 
+/* 영화 검색 */
 .search {
     font-size: 25px;
     width: 100%;
@@ -14,13 +16,15 @@
     justify-content: center;
     padding: 20px 0;
     border-bottom: 1px solid black;
-} /* 영화 검색 */
+} 
 
+/* 검색 버튼 및 placeholder 영향 */
 .search-btn {
     font-size: 20px;
     margin-left: 10px;
-} /* 검색 버튼 및 placeholder 영향 */
+} 
 
+/* placeholder 및 검색 버튼 영향 */   
 .search-input{
     font-size : 15px;
     padding: 5px 10px;
@@ -30,12 +34,14 @@
     justify-content: center;
     padding: 5px 10px;
     box-sizing: border-box;
-}  /* placeholder 및 검색 버튼 영향 */     
+}    
 
+/* 카드 구역 style */
 .mycards {
     margin: 20px auto 0px auto;
     width: 95%;
     max-width: 1200px;
 
-    cursor: pointer; /* 마우스 커서 갖다대면 손가락 모영 변경 */
+    /* 마우스 커서 갖다대면 손가락 모양 변경 */
+    cursor: pointer; 
 }
